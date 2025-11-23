@@ -1,0 +1,98 @@
+// app global css in SCSS form
+body {
+  background-color: #ffffff;
+}
+aside {
+  position: fixed !important;
+}
+#home-header {
+  background-color: rgb(255 255 255 / 75%);
+}
+.width-responsive {
+  width: 1240px;
+} //1240px
+.width-full {
+  width: 100vw;
+}
+.footer-item {
+  color: $separator-color;
+}
+.fixed-top-left {
+  position: fixed;
+  left: 0;
+}
+.hover-underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.hover:hover {
+  cursor: pointer;
+}
+
+.width-legal-ctt {
+  width: 800px;
+}
+.legal-tocli {
+  list-style-type: decimal-leading-zero;
+}
+.legal-cttli {
+  list-style-type: lower-roman;
+}
+
+.drawer-active {
+  color: #ffffff !important;
+  background-color: #004d40;
+  border-left: 3px solid #ffffff;
+}
+
+.border-rs {
+  border-right: 1px solid #c8d8dc;
+}
+.border-bs {
+  border-bottom: 1px solid #c8d8dc;
+}
+.border-bd {
+  border-bottom: 1px dashed #c8d8dc;
+}
+.blur {
+  backdrop-filter: blur(1px);
+}
+.blur-12 {
+  backdrop-filter: blur(12px);
+}
+//
+.schedule-note-container {
+  display: inline-flex;
+  flex: 1 1 auto;
+}
+.schedule-note-group {
+  display: block;
+  position: relative;
+}
+.schedule-note-group,
+.schedule-note {
+  transition: all 0.75s ease;
+}
+.schedule-note {
+  height: 64px;
+  //border-radius: 16px;
+}
+.schedule-note:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+.schedule-note-date {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  font-weight: light;
+  font-size: 0.7rem;
+  color: #666666;
+}
+.schedule-note-txt {
+  font-size: 0.8rem;
+  line-height: normal;
+  padding-top: 6px;
+}
+.holiday-edit-items:not(:last-of-type) {
+  margin-bottom: 0.85rem;
+}
